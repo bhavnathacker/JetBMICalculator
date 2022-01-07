@@ -22,7 +22,7 @@ This is a sample app(For beginners - App #2) built using Jetpack Compose. It dem
  
 **BMICalculatorForm()**
 
-**Height** and **Weight** are the two states used by BMI Calculator form composable, however these are local to this composable. Hence not hoisted by parent composable (**MainContent()**). Whenever, **Calcualte** button is clicked, latest value is passed via onClick.
+**Height** and **Weight** are the two states used by BMI Calculator form composable, however these are local to this composable. Hence not hoisted by parent composable (**MainContent()**). Only when **Calculate** button is clicked, latest value is passed via onClick.
 
 However, other two states - **showBmiResult** and **bmiResult** - are modified by actions inside **BMICalculatorForm()**, but are used by **BMIResultForm()** to display on UI. Hence both of these are hoisted by thier parent composable (**MainContent()**). 
 
