@@ -27,5 +27,4 @@ This is a sample app(For beginners - App #2) built using Jetpack Compose. It dem
 
 However, other two states - **showBmiResult** and **bmiResult** - are modified by actions inside **BMICalculatorForm()**, but are used by **BMIResultForm()** to display on UI. Hence both of these are hoisted by thier parent composable (**MainContent()**). 
 
-
  
