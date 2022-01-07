@@ -1,10 +1,9 @@
 # JetBMICalculator
 This is a sample app(For beginners - App #2) built using Jetpack Compose. It demonstrates the concept of State Hoisting in Jetpack Compose.
 
+ ![Alt text](https://github.com/bhavnathacker/JetBMICalculator/blob/master/img_1.png)
  
- ![Alt text](https://github.com/bhavnathacker/JetBMICalculator/blob/master/image_1.png)
- 
- ![Alt text](https://github.com/bhavnathacker/JetBMICalculator/blob/master/image_2.png)
+ ![Alt text](https://github.com/bhavnathacker/JetBMICalculator/blob/master/img_2.png)
  
  ![Alt text](https://github.com/bhavnathacker/JetBMICalculator/blob/master/image.gif)
  
